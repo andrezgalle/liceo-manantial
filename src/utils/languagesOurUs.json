@@ -1,0 +1,98 @@
+{
+    "items": {
+        "es": [
+            {
+                "id": 1,
+                "image": "/resources/ourUs/items/cruz.svg",
+                "title": "Fe en Cristo",
+                "description": "nuestra guía y fundamento."
+            },
+            {
+                "id": 2,
+                "image": "/resources/ourUs/items/star.svg",
+                "title": "Excelencia",
+                "description": "<p>dar lo mejor en todo lo <br /> que hacemos</p>"
+            },
+            {
+                "id": 3,
+                "image": "/resources/ourUs/items/mano.svg",
+                "title": "Respeto",
+                "description": "<p>valorar a cada persona como <br /> creación de Dios</p>"
+            },
+            {
+                "id": 4,
+                "image": "/resources/ourUs/items/ave.svg",
+                "title": "Integridad",
+                "description": "<p>actuar con transparencia, <br/> siempre.</p>"
+            }
+        ],
+        "en": [
+            {
+                "id": 1,
+                "image": "/resources/ourUs/items/cruz.svg",
+                "title": "Faith in Christ",
+                "description": "our guide and foundation."
+            },
+            {
+                "id": 2,
+                "image": "/resources/ourUs/items/star.svg",
+                "title": "Excellence",
+                "description": "<p>give the best in everything <br /> we do</p>"
+            },
+            {
+                "id": 3,
+                "image": "/resources/ourUs/items/mano.svg",
+                "title": "Respect",
+                "description": "<p>value each person as a <br /> creation of God</p>"
+            },
+            {
+                "id": 4,
+                "image": "/resources/ourUs/items/ave.svg",
+                "title": "Integrity",
+                "description": "<p>act with transparency, <br/> always.</p>"
+            }
+        ]
+    },
+    "section": {
+        "es": [
+            {
+                "title": "Quiénes somos",
+                "description": "En el Liceo Manantial creemos que cada estudiante es un manantial de talento y posibilidades. Somos un colegio cristiano que combina excelencia académica con una formación en valores, creando un espacio donde aprender es tan importante como crecer en la fe."
+            },
+            {
+                "title": "Nuestra misión",
+                "description": "Educar con amor, conocimiento y fe, formando estudiantes íntegros que puedan transformar su entorno y marcar la diferencia en el mundo."
+            },
+            {
+                "title": "Nuestra visión",
+                "description": "Convertirnos en un faro de educación cristiana, reconocido por nuestra innovación, la calidad de nuestro aprendizaje y la huella espiritual que dejamos en cada generación."
+            }
+        ],
+        "en": [
+            {
+                "title": "Who We Are",
+                "description": "At Liceo Manantial, we believe every student is a spring of talent and possibilities. We are a Christian school that combines academic excellence with value-based formation, creating a space where learning is as important as growing in faith."
+            },
+            {
+                "title": "Our Mission",
+                "description": "To educate with love, knowledge, and faith, forming integral students who can transform their environment and make a difference in the world."
+            },
+            {
+                "title": "Our Vision",
+                "description": "To become a beacon of Christian education, recognized for our innovation, the quality of our learning, and the spiritual impact we leave on every generation."
+            }
+        ]
+    },
+    "actions": {
+        "es": {
+            "title": "Nacimos con un sueño",
+            "description": "Ser una familia educativa donde padres, estudiantes y docentes trabajen unidos bajo un mismo propósito: formar generaciones que brillen en conocimiento y en fe. Hoy, seguimos creciendo y escribiendo nuevas páginas de esta historia, con la certeza de que lo mejor está por venir.",
+            "button": "Se parte de nuestra familia educativa"
+        },
+        "en": {
+            "title": "We Were Born with a Dream",
+            "description": "To be an educational family where parents, students, and teachers work together under one purpose: to form generations that shine in knowledge and in faith. Today, we continue growing and writing new chapters of this story, with the certainty that the best is yet to come.",
+            "button": "Be part of our educational family"
+        }
+    }
+}

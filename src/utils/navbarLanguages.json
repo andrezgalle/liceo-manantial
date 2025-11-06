@@ -1,0 +1,20 @@
+{
+    "navbar": {
+        "en": {
+            "home": "Home",
+            "about": "About",
+            "testimonials": "Testimonials",
+            "contact": "Contact"
+        },
+        "es": {
+            "home": "Inicio",
+            "about": "Nosotros",
+            "testimonials": "Testimonios",
+            "contact": "Contactanos"
+        }
+    },
+    "signIn": {
+        "en": "Sign In",
+        "es": "Ingresar"
+    }
+}

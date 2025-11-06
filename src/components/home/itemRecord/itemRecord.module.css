@@ -1,0 +1,46 @@
+.itemRecord {
+    display: flex;
+    gap: 2rem;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.textContainer h3 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 2.9rem;
+}
+
+.textContainer p {
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    .itemRecord {
+        width: 50%;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .itemRecord div {
+        flex: 1;
+    }
+
+    .textContainer h3 {
+        font-size: 2.5rem;
+    }
+
+    .textContainer p {
+        font-size: 1.2rem;
+    }
+
+}

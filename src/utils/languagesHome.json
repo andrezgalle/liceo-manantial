@@ -1,0 +1,295 @@
+{
+    "main": {
+        "initTitle": {
+            "es": "Matrículas",
+            "en": "Enrollment"
+        },
+        "secondTitle": {
+            "es": "Abiertas",
+            "en": "Open"
+        },
+        "description": {
+            "es": "Formamos con fe. Educamos con propósito.",
+            "en": "We form with faith. We educate with purpose."
+        },
+        "button": {
+            "es": "Más información",
+            "en": "More information"
+        }
+    },
+    "cards": [
+        {
+            "es": [
+                {
+                    "id": 1,
+                    "title": "Dios",
+                    "description": "Acompañamos el desarrollo espiritual de nuestros estudiantes con amor y fe.",
+                    "imageUrl": "/resources/home/main/cruz.svg"
+                },
+                {
+                    "id": 2,
+                    "title": "Educación",
+                    "description": "Nuestro modelo pedagógico impulsa el pensamiento crítico, la creatividad y el liderazgo.",
+                    "imageUrl": "/resources/home/main/libro.svg"
+                },
+                {
+                    "id": 3,
+                    "title": "Familia",
+                    "description": "Creamos vínculos sólidos entre docentes, familias y estudiantes.",
+                    "imageUrl": "/resources/home/main/corazon.svg"
+                }
+            ],
+            "en": [
+                {
+                    "id": 1,
+                    "title": "God",
+                    "description": "We empower the spiritual development of our students with love and faith.",
+                    "imageUrl": "/resources/home/main/cruz.svg"
+                },
+                {
+                    "id": 2,
+                    "title": "Education",
+                    "description": "Our pedagogical model stimulates critical thinking, creativity, and leadership.",
+                    "imageUrl": "/resources/home/main/libro.svg"
+                },
+                {
+                    "id": 3,
+                    "title": "Family",
+                    "description": "We create solid bonds between teachers, families, and students.",
+                    "imageUrl": "/resources/home/main/corazon.svg"
+                }
+            ]
+        }
+    ],
+    "records": {
+        "es": [
+            {
+                "id": 1,
+                "iconUrl": "/resources/home/records/estudiante.svg",
+                "title": "20 +",
+                "description": "Promociones"
+            },
+            {
+                "id": 2,
+                "iconUrl": "/resources/home/records/acuerdo.svg",
+                "title": "900 +",
+                "description": "Graduados Academicos"
+            },
+            {
+                "id": 3,
+                "iconUrl": "/resources/home/records/grupo.svg",
+                "title": "130 +",
+                "description": "Estudiante Billingues"
+            },
+            {
+                "id": 4,
+                "iconUrl": "/resources/home/records/graduados.svg",
+                "title": "1000 +",
+                "description": "Graduados"
+            },
+            {
+                "id": 5,
+                "iconUrl": "/resources/home/records/graduados.svg",
+                "title": "32",
+                "description": "Años"
+            }
+        ],
+        "en": [
+            {
+                "id": 1,
+                "iconUrl": "/resources/home/records/estudiante.svg",
+                "title": "20 +",
+                "description": "Promotions"
+            },
+            {
+                "id": 2,
+                "iconUrl": "/resources/home/records/acuerdo.svg",
+                "title": "900 +",
+                "description": "Academic Graduates"
+            },
+            {
+                "id": 3,
+                "iconUrl": "/resources/home/records/grupo.svg",
+                "title": "130 +",
+                "description": "Billingue Students"
+            },
+            {
+                "id": 4,
+                "iconUrl": "/resources/home/records/graduados.svg",
+                "title": "1000 +",
+                "description": "Graduates"
+            },
+            {
+                "id": 5,
+                "iconUrl": "/resources/home/records/graduados.svg",
+                "title": "32",
+                "description": "Years"
+            }
+        ]
+    },
+    "testimonials": {
+        "title": {
+            "es": "Testimonios",
+            "en": "Testimonials"
+        },
+        "en": [
+            {
+                "id": 1,
+                "paragraph": "“Since my daughter entered the Liceo Manantial, I have seen how he grows not only academically, but also in his faith. He feels heard, valued and happy every day.”",
+                "author": "Marcela G",
+                "role": "Mother of student"
+            },
+            {
+                "id": 2,
+                "paragraph": "“Here I learned that studying is not just memorizing, it is understanding, asking and trusting that God accompanies me on each step.”",
+                "author": "David R",
+                "role": "Student grade 9th"
+            },
+            {
+                "id": 3,
+                "paragraph": "“What I really like about the school is the integrated approach. My son is learning with excellence, but he is also forming as a good person, with values.”",
+                "author": "Jorge L",
+                "role": "Father of student"
+            }
+        ],
+        "es": [
+            {
+                "id": 1,
+                "paragraph": "“Desde que mi hija ingresó al Liceo Manantial, he vistocomo crece no solo en lo académico, sino tambien en su fe. Se siente escuchada, valorada y feliz cada dia.”",
+                "author": "Marcela G",
+                "role": "Madre de estudiante"
+            },
+            {
+                "id": 2,
+                "paragraph": "“Aquí aprendí que estudiar no solo es memorizar, es entender, preguntar y confiar en que Dios me acompaña en cada paso.”",
+                "author": "David R",
+                "role": "Estudiante grado 9º"
+            },
+            {
+                "id": 3,
+                "paragraph": "“Lo que más me gusta del colegio es el enfoque integral. Mi hijo está aprendiendo con excelencia, pero también se está formando como una buena persona, con valores.”",
+                "author": "Jorge L",
+                "role": "Papá estudiante"
+            }
+        ]
+    },
+    "academicLevels": {
+        "paragraph": {
+            "es": "Formación con propósito desde los primeros pasos hasta el bachillerato. En el Liceo Manantial acompañamos cada etapa del desarrollo académico con enfoque cristiano, excelencia pedagógica y un ambiente que fortalece la identidad de cada estudiante.",
+            "en": "Formation with purpose from the very first steps through high school. At Liceo Manantial we accompany every stage of academic development with a Christian focus, pedagogical excellence, and an environment that strengthens each student’s identity."
+        },
+        "cards": {
+            "es": [
+                {
+                    "id": 1,
+                    "title": "Inclusión",
+                    "description": "Aprendizaje adaptado, con respeto y acompañamiento."
+                },
+                {
+                    "id": 2,
+                    "title": "Preescolar",
+                    "description": "Exploración, juego y valores desde los primeros pasos."
+                },
+                {
+                    "id": 3,
+                    "title": "Primaria",
+                    "description": "Pensamiento crítico, liderazgo y formación bilingüe."
+                },
+                {
+                    "id": 4,
+                    "title": "Bachillerato",
+                    "description": "Pensamiento crítico, liderazgo y formación bilingüe."
+                }
+            ],
+            "en": [
+                {
+                    "id": 1,
+                    "title": "Inclusion",
+                    "description": "Adaptive learning, with respect and companionship."
+                },
+                {
+                    "id": 2,
+                    "title": "Preschool",
+                    "description": "Exploration, play and values from the very first steps."
+                },
+                {
+                    "id": 3,
+                    "title": "Primary",
+                    "description": "Critical thinking, leadership and bilingual formation."
+                },
+                {
+                    "id": 4,
+                    "title": "High School",
+                    "description": "Critical thinking, leadership and bilingual formation."
+                }
+            ]
+        }
+    },
+    "chooseUs": {
+        "title": {
+            "es": "¿Por qué elegirnos?",
+            "en": "Why choose us"
+        },
+        "cards": {
+            "es": [
+                {
+                    "id": 1,
+                    "title": "Formación Cristiana",
+                    "description": "Fortalecemos el corazón y el espíritu de cada estudiante con principios.",
+                    "active": true
+                },
+                {
+                    "id": 2,
+                    "title": "Excelencia Académica",
+                    "description": "Ofrecemos una educación integral, actualizada y exigente.",
+                    "active": false
+                }, 
+                {
+                    "id": 3,
+                    "title": "Comunidad Familiar",
+                    "description": "Fomentamos un ambiente de cercanía entre padres, docentes y alumnos, basado en el respeto.",
+                    "active": false
+                },
+                {
+                    "id": 4,
+                    "title": "Desarrollo de Talentos",
+                    "description": "Desde lo académico hasta lo artístico, impulsamos el potencial único de cada niño y joven.",
+                    "active": false
+                }
+            ],
+
+            "en" : [
+                {
+                    "id": 1,
+                    "title": "Christian Formation",
+                    "description": "We strengthen the heart and the spirit of each student with principles.",
+                    "active": true
+                },
+                {
+                    "id": 2,
+                    "title": "Academic Excellence",
+                    "description": "We offer a comprehensive, updated and demanding education.",
+                    "active": false
+                }, 
+                {
+                    "id": 3,
+                    "title": "Family Community",
+                    "description": "We foster a community of closeness between parents, teachers and students, based on respect.",
+                    "active": false
+                },
+                {
+                    "id": 4,
+                    "title": "Talent Development",
+                    "description": "From academic to artistic, we promote the unique potential of each child and teenager.",
+                    "active": false
+                }
+            ]
+        }
+    }, 
+    "carousel": {
+        "paragraph": {
+            "es": "En el Liceo Manantial cada experiencia cuenta. Aquí compartimos los instantes que reflejan la alegría, la fe y el crecimiento de nuestra comunidad educativa.",
+            "en": "In Liceo Manantial, every experience counts. Here we share the moments that reflect the joy, faith and growth of our educational community."
+        }
+    }
+}

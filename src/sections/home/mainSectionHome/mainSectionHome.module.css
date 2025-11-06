@@ -1,0 +1,107 @@
+.mainSection {
+    width: 100%;
+    background-image: linear-gradient(rgba(43, 43, 43, 0.7), rgba(43, 43, 43, 0.7)), url('/resources/home/main/hero-main.webp');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.content {
+    width: 90%;
+    max-width: 1200px;
+    padding-top: 15rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.titles h1,
+.titles h2 {
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    line-height: 10rem;
+}
+
+.text {
+    margin-top: 5rem;
+}
+
+.text p {
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3rem;
+    letter-spacing: 0.02rem;
+}
+
+.text button {
+    margin-top: 5rem;
+    padding: 2rem 5rem;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: white;
+    background-color: #3B82F6;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    letter-spacing: .2px;
+}
+
+.containerCards {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    margin: 1rem auto 0 auto;
+    position: relative;
+    bottom: -100px;
+}
+
+.containerCardsMobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    .titles h1,
+    .titles h2 {
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+
+    .containerCards {
+        display: none;
+    }
+
+    .text button {
+        margin-bottom: 8rem;
+    }
+
+    .text p {
+        font-size: 1.7rem;
+    }
+
+    .containerCardsMobile {
+        display: flex;
+        width: 90%;
+        margin: 5rem auto 5rem auto;
+        flex-direction: column;
+        gap: 6rem;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+    .titles h1,
+    .titles h2 {
+        font-size: 3.8rem;
+        line-height: 6rem;
+    }
+}

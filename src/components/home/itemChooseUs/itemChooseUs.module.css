@@ -1,0 +1,19 @@
+.card {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.6rem;
+    max-width: 25rem;
+}
+
+.card h3 {
+    color: #221E1E;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.card p {
+    color: #221E1E;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}

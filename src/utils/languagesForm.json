@@ -1,0 +1,43 @@
+{
+    "es" : {
+        "mainTitle": "¡Queremos escucharte!",
+        "secondTitle": "En el Liceo Manantial creemos que la comunicación es la base de toda gran comunidad...",
+        "title": "Información de contacto",
+        "labels": {
+            "name": "Nombre",
+            "lastname": "Apellidos",
+            "email": "Correo",
+            "phone": "Telefono",
+            "message": "Mensaje"
+        },
+        "placeholders": {
+            "name": "Ingresa tu nombre",
+            "lastname": "Ingresa tus apellidos",
+            "email": "Ingresa tu correo",
+            "phone": "Ingresa tu telefono",
+            "message": "Escribe tu mensaje"
+        },
+        "button": "Enviar"
+    },
+
+    "en" : {
+        "mainTitle": "We want to listen to you!",
+        "secondTitle": "In Liceo Manantial, we believe that communication is the foundation of a great community...",
+        "title": "Contact information",
+        "labels": {
+            "name": "Name",
+            "lastname": "Last name",
+            "email": "Email",
+            "phone": "Phone",
+            "message": "Message"
+        },
+        "placeholders": {
+            "name": "Enter your name",
+            "lastname": "Enter your last name",
+            "email": "Enter your email",
+            "phone": "Enter your phone",
+            "message": "Write your message"
+        },
+        "button": "Send"
+    }
+}

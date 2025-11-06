@@ -1,0 +1,57 @@
+.container {
+    margin-top: 8rem;
+    background-image: url('/resources/ourUs/action/Container.svg');
+    padding: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 800px;
+}
+
+.content h3 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.container p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #3b82f6;
+    border: none;
+    padding: 2rem 3rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    letter-spacing: 0.2px;
+    
+}
+
+
+.container button img {
+    filter: invert(38%) sepia(98%) saturate(1%) hue-rotate(191deg) brightness(100%) contrast(999999999999901%);
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 4rem 2rem; 
+        min-height: 600px;
+    }
+}

@@ -1,0 +1,25 @@
+.container {
+    padding: 10rem 0rem;
+}
+
+.containerContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+.containerContent p {
+    font-size: 1.6rem;
+    text-align: left;
+    color: #333931;
+    line-height: 3.3rem;
+}
+
+@media (max-width: 1024px) {
+    .containerContent {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

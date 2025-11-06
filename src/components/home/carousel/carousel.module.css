@@ -1,0 +1,85 @@
+.carouselWrapper {
+    margin-top: 4rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.carouselTrack {
+    display: flex;
+    gap: 2rem;
+    width: 120%;
+    cursor: grab;
+    transition: transform 0.3s;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    margin-left: 5rem;
+    /* IE 10+ */
+}
+
+.carouselTrack::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.carouselItem {
+    flex: 0 0 auto;
+    width: 400px;
+    height: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #f5f5f5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive: Mobile (1 item) */
+@media (max-width: 600px) {
+    .carouselTrack {
+        width: 100%;
+        gap: 1rem;
+        margin-left: 2rem;
+    }
+
+    .carouselItem {
+        width: 90vw;
+        max-width: 90vw;
+        height: 200px;
+    }
+}
+
+/* Responsive: Tablet (2 items) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .carouselTrack {
+        width: 110%;
+        gap: 1.5rem;
+    }
+
+    .carouselItem {
+        width: 45vw;
+        max-width: 350px;
+        height: 250px;
+    }
+}
+
+/* Centrado si hay menos de 4 items */
+.carouselTrack:has(.carouselItem:nth-child(4)) {
+    justify-content: flex-start;
+}
+
+.carouselTrack:not(:has(.carouselItem:nth-child(4))) {
+    justify-content: center;
+}

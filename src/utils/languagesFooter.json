@@ -1,0 +1,68 @@
+{
+    "description": {
+        "es" : "Conoce toda la actualidad del Liceo, en nuestras redes sociales.",
+        "en" : "Discover all the latest news of Liceo in our social networks."
+    },
+
+    "title": {
+        "es" : "Nuestra Web",
+        "en" : "Our Website"
+    },
+
+    "itemsContact" : {
+        "es": {
+            "address": "Dirección",
+            "whatsApp": "WhatsApp",
+            "email": "Correo"
+        },
+
+        "en": {
+            "address": "Address",
+            "whatsApp": "WhatsApp",
+            "email": "Email"
+        }
+    },
+
+    "links": {
+        
+        "es": {
+            "home": "Inicio",
+            "about": "Nosotros",
+            "testimonials": "Testimonios",
+            "contact": "Contactanos",
+            "signIn": "Ingresar",
+            "tutorial": "Tutorial Pagos en PSE",
+            "pdf": "PDF",
+            "instructions": "Instructivo"
+        },
+
+        "en" : {
+            "home": "Home",
+            "about": "About",
+            "testimonials": "Testimonials",
+            "contact": "Contact",
+            "signIn": "Sign In",
+            "tutorial": "Tutorial Payments in PSE",
+            "pdf": "PDF",
+            "instructions": "Instructions"
+        }
+    },
+
+    "forms" : {
+        "es": {
+            "title" : "Suscribete",
+            "placeholder" : "Ingresa tu correo",
+            "button" : "Enviar"
+        },
+
+        "en": {
+            "title" : "Subscribe",
+            "placeholder" : "Enter your email",
+            "button" : "Send"
+        }
+    }
+    
+
+
+
+}

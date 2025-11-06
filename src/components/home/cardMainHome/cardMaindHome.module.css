@@ -1,0 +1,27 @@
+.card {
+    padding: 4rem;
+    background-color: #ffffff;
+    box-shadow: 0px 13px 19px 0px #00000012;
+    box-shadow: 0px 13px 19px 0px #00000012;
+
+}
+
+.title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #252B42;
+    letter-spacing: 0.01rem;
+    margin: 2rem 0;
+}
+
+.card .line {
+    margin-bottom: 2rem;
+}
+
+.card p {
+    font-size:1.6rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.02rem;
+    font-weight: 400;
+    color: #737373;
+}

@@ -1,0 +1,80 @@
+.academicLevelSectionHome {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.academicLevelContent {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.academicLevelImage {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.academicLevelText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.academicLevelText p {
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.academicLevelGrid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.imageMobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    .academicLevelSectionHome {
+        margin-top: 4rem;
+    }
+
+    .academicLevelContent {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+    }
+
+    .containerImage {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .academicLevelGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .academicLevelImage {
+        display: none;
+    }
+
+    .imageMobile {
+        display: block;
+        width: 500px;
+        height: auto;
+        margin: 5rem 0rem;
+    }
+
+
+}

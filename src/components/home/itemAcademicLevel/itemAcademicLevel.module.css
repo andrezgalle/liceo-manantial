@@ -1,0 +1,23 @@
+.itemAcademicLevel {
+    background-color: #E9E2FF;
+    padding: 3rem 2rem;
+    border-radius: 0.7rem;
+}
+
+.itemAcademicLevelContent {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.itemAcademicLevelContent p {
+    font-family: "Epilogue" sans-serif;
+    font-weight: 600;
+    color: #0E2A46;
+}
+
+.itemAcademicLevel p {
+    width: 100%;
+    font-size: 1.5rem;
+}

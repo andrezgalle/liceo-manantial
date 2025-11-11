@@ -7,18 +7,15 @@ import { useEffect, useState } from 'react'
 import json from "@/utils/languagesHome.json";
 
 const carouselItems = [
-    { id: 1, image: '/resources/util/1.jpg', alt: 'Imagen 1' },
-    { id: 2, image: '/resources/util/2.jpg', alt: 'Imagen 2' },
-    { id: 3, image: '/resources/util/3.jpg', alt: 'Imagen 3' },
-    { id: 4, image: '/resources/util/4.jpg', alt: 'Imagen 4' },
-    { id: 5, image: '/resources/util/5.jpg', alt: 'Imagen 5' },
-    { id: 6, image: '/resources/util/6.jpg', alt: 'Imagen 6' },
-    { id: 7, image: '/resources/util/7.jpg', alt: 'Imagen 7' },
-    { id: 8, image: '/resources/util/8.jpg', alt: 'Imagen 8' },
-    { id: 9, image: '/resources/util/9.jpg', alt: 'Imagen 9' },
-    { id: 10, image: '/resources/util/10.jpg', alt: 'Imagen 10' },
-    { id: 11, image: '/resources/util/11.jpg', alt: 'Imagen 11' },
-    { id: 12, image: '/resources/util/12.jpg', alt: 'Imagen 12' },
+    { id: 1, image: '/resources/util/1.webp', alt: 'Imagen 1' },
+    { id: 2, image: '/resources/util/2.webp', alt: 'Imagen 2' },
+    { id: 3, image: '/resources/util/3.webp', alt: 'Imagen 3' },
+    { id: 4, image: '/resources/util/4.webp', alt: 'Imagen 4' },
+    { id: 5, image: '/resources/util/5.webp', alt: 'Imagen 5' },
+    { id: 6, image: '/resources/util/6.webp', alt: 'Imagen 6' },
+    { id: 7, image: '/resources/util/7.webp', alt: 'Imagen 7' },
+    { id: 8, image: '/resources/util/8.webp', alt: 'Imagen 8' },
+    { id: 9, image: '/resources/util/9.webp', alt: 'Imagen 9' }
 ];
 
 export default function CarouselSectionHome() {

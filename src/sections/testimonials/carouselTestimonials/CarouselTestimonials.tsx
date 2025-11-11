@@ -6,37 +6,37 @@ import { animateFooter } from '@/animations/global/footer/animations';
 const items = [
   {
     id: 1,
-    name: 'Maria Paula',
-    video: '/resources/testimonials/1.mov',
-    title: 'Maria Paula',
-    desc: 'Estudiante',
+    name: 'Carlos',
+    video: '/resources/testimonials/testimonial1.mp4',
+    title: 'Katherin García',
+    desc: 'Ex alumna',
   },
   {
     id: 2,
-    name: 'Juan Pablo',
-    video: '/resources/testimonials/2.mov',
-    title: 'Juan Pablo',
+    name: 'Carolina',
+    video: '/resources/testimonials/testimonial2.mp4',
+    title: 'Carolina Pérez',
     desc: 'Estudiante',
   },
   {
     id: 3,
-    name: 'Maria Paula',
-    video: '/resources/testimonials/1.mov',
-    title: 'Maria Paula',
+    name: 'Andrés',
+    video: '/resources/testimonials/testimonial3.mp4',
+    title: 'Andrés Gómez',
     desc: 'Estudiante',
   },
   {
     id: 4,
-    name: 'Juan Pablo',
-    video: '/resources/testimonials/2.mov',
-    title: 'Juan Pablo',
+    name: 'Camila',
+    video: '/resources/testimonials/testimonial4.mp4',
+    title: 'Camila Díaz',
     desc: 'Estudiante',
   },
   {
     id: 5,
-    name: 'Maria Paula',
-    video: '/resources/testimonials/1.mov',
-    title: 'Maria Paula',
+    name: 'Maria',
+    video: '/resources/testimonials/testimonial5.mp4',
+    title: 'Maria López',
     desc: 'Estudiante',
   },
 ];
@@ -78,13 +78,15 @@ export default function CarouselTestimonials() {
           >
             <div className={styles.videoWrapper}>
               <video
-                ref={(el : any) => (videoRefs.current[index] = el)}
+                ref={(el) => {
+                  videoRefs.current[index] = el;
+                }}
                 className={styles.video}
                 controls={index === activeIndex}
                 playsInline
                 preload="metadata"
               >
-                <source src={item.video} type="video/mp4" />
+                <source src={item.video} type="video/quicktime" />
                 Tu navegador no soporta el elemento de video.
               </video>
             </div>

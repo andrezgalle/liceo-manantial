@@ -51,7 +51,7 @@ export default function ChooseUsSectionHome() {
 
           <div>
             <Image
-              src={'/resources/home/choose-us/imagen-mujer.png'}
+              src={'/resources/home/choose-us/8.png'}
               alt='mujer'
               width={500}
               height={400}
@@ -73,10 +73,10 @@ export default function ChooseUsSectionHome() {
           </div>
           <div>
             <Image
-              src={'/resources/home/choose-us/imagen-mujer.png'}
+              src={'/resources/home/choose-us/8.png'}
               alt='mujer'
-              width={500}
-              height={400}
+              width={550}
+              height={500}
               className={`${styles.imageWomen} image-women-choose-us`}
             />
           </div>

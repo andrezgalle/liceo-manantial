@@ -64,7 +64,7 @@ export default function AcademicLevelSectionHome() {
 
                         <div>
                             <Image
-                                src="/resources/home/academic-level/boy.svg"
+                                src="/resources/home/academic-level/boy.png"
                                 alt="Niveles Académicos"
                                 width={500}
                                 height={300}
@@ -83,9 +83,9 @@ export default function AcademicLevelSectionHome() {
 
                     <div className={styles.academicLevelImage}>
                         <Image
-                            src="/resources/home/academic-level/boy.svg"
+                            src="/resources/home/academic-level/boy.png"
                             alt="Niveles Académicos"
-                            width={500}
+                            width={600}
                             height={800}
                             className='hero-image-academic-level'
                         />

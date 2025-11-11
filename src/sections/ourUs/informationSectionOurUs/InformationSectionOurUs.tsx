@@ -36,7 +36,7 @@ export default function InformationSectionOurUs() {
                     </div>
                     <div>
                         <Image
-                            src="/resources/ourUs/information/1.svg"
+                            src="/resources/ourUs/information/1.png"
                             alt="Quiénes somos"
                             width={650}
                             height={450}
@@ -49,7 +49,7 @@ export default function InformationSectionOurUs() {
                 <div className={`${styles.itemContent} item-information-ourus`}>
                     <div>
                         <Image
-                            src="/resources/ourUs/information/2.svg"
+                            src="/resources/ourUs/information/2.png"
                             alt="Nuestra misión"
                             width={650}
                             height={450}
@@ -78,9 +78,9 @@ export default function InformationSectionOurUs() {
                     </div>
                     <div>
                         <Image
-                            src="/resources/ourUs/information/3.svg"
+                            src="/resources/ourUs/information/3.png"
                             alt="Nuestra visión"
-                            width={650}
+                            width={550}
                             height={450}
                             className="image-information-ourus"
                         />

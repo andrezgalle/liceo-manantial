@@ -46,9 +46,9 @@ export default function RecordsSectionHome() {
             <div>
                 <div className={styles.containerImages}>
                     <Image
-                        src="/resources/home/records/childrens.webp"
+                        src="/resources/home/records/childrens.png"
                         alt="Childrens"
-                        width={550}
+                        width={600}
                         height={640}
                         className={`${styles.imageChildrens} img1-records`}
                     />

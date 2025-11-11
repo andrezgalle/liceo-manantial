@@ -3,7 +3,8 @@
 }
 
 .container {
-    background-image: url('/resources/ourUs/main/girl.svg');
+    margin-top: 10rem;
+    background-image: url('/resources/ourUs/main/9.png');
     background-size: contain;
     background-position: top center;
     height: 800px;

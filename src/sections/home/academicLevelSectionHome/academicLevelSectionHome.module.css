@@ -13,6 +13,7 @@
 }
 
 .academicLevelImage {
+    margin-top: 10rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;

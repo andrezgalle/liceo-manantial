@@ -2,15 +2,15 @@
     "main": {
         "initTitle": {
             "es": "Matrículas",
-            "en": "Enrollment"
+            "en": "Open"
         },
         "secondTitle": {
             "es": "Abiertas",
-            "en": "Open"
+            "en": "Enrollment"
         },
         "description": {
-            "es": "Formamos con fe. Educamos con propósito.",
-            "en": "We form with faith. We educate with purpose."
+            "es": "Educamos generaciones con propósito.",
+            "en": "We educate generations with purpose."
         },
         "button": {
             "es": "Más información",
@@ -23,19 +23,19 @@
                 {
                     "id": 1,
                     "title": "Dios",
-                    "description": "Acompañamos el desarrollo espiritual de nuestros estudiantes con amor y fe.",
+                    "description": "Acompañamos a tus hijos a conocer a Dios, a través de la oración, reflexión y lectura de la Palabra.",
                     "imageUrl": "/resources/home/main/cruz.svg"
                 },
                 {
                     "id": 2,
                     "title": "Educación",
-                    "description": "Nuestro modelo pedagógico impulsa el pensamiento crítico, la creatividad y el liderazgo.",
+                    "description": "Creemos en la educación que inspira y despierta la creatividad, que forma líderes capaces de generar un impacto real en la sociedad.",
                     "imageUrl": "/resources/home/main/libro.svg"
                 },
                 {
                     "id": 3,
                     "title": "Familia",
-                    "description": "Creamos vínculos sólidos entre docentes, familias y estudiantes.",
+                    "description": "Fomentamos una relación cercana entre docentes, familias y estudiantes. Estos vínculos sólidos hacen posible una educación que trasciende el aula y transforma vidas.",
                     "imageUrl": "/resources/home/main/corazon.svg"
                 }
             ],
@@ -43,19 +43,19 @@
                 {
                     "id": 1,
                     "title": "God",
-                    "description": "We empower the spiritual development of our students with love and faith.",
+                    "description": "We accompany your children in knowing God through prayer, meditation and reading of the Word.",
                     "imageUrl": "/resources/home/main/cruz.svg"
                 },
                 {
                     "id": 2,
                     "title": "Education",
-                    "description": "Our pedagogical model stimulates critical thinking, creativity, and leadership.",
+                    "description": "We believe in education that inspires and awakens creativity and that trains leaders capable of generating a real impact on society.",
                     "imageUrl": "/resources/home/main/libro.svg"
                 },
                 {
                     "id": 3,
                     "title": "Family",
-                    "description": "We create solid bonds between teachers, families, and students.",
+                    "description": "We foster a close relationship between teachers, families and students. These strong bonds make possible an education that transcends the classroom and transforms lives.",
                     "imageUrl": "/resources/home/main/corazon.svg"
                 }
             ]
@@ -175,52 +175,52 @@
     },
     "academicLevels": {
         "paragraph": {
-            "es": "Formación con propósito desde los primeros pasos hasta el bachillerato. En el Liceo Manantial acompañamos cada etapa del desarrollo académico con enfoque cristiano, excelencia pedagógica y un ambiente que fortalece la identidad de cada estudiante.",
-            "en": "Formation with purpose from the very first steps through high school. At Liceo Manantial we accompany every stage of academic development with a Christian focus, pedagogical excellence, and an environment that strengthens each student’s identity."
+            "es": "En el Liceo Manantial acompañamos a cada estudiante desde sus primeros pasos hasta el bachillerato, con un enfoque cristiano, excelencia académica y un ambiente que fortalece su identidad. Nuestro modelo pedagógico es una experiencia transformadora. Construimos juntos un entorno de confianza, acompañamiento y crecimiento.",
+            "en": "At Manantial Lyceum we accompany each student from their first steps to high school, with a Christian approach, academic excellence and an environment that strengthens their identity. Our pedagogical model is a transformative experience. Together we build an environment of trust, accompaniment and growth."
         },
         "cards": {
             "es": [
                 {
                     "id": 1,
-                    "title": "Inclusión",
-                    "description": "Aprendizaje adaptado, con respeto y acompañamiento."
+                    "title": "Preescolar",
+                    "description": "Escribimos historias brillantes, guiando a cada niño a descubrir su propósito y crecer con valores, talentos y hábitos que transforman el mundo."
                 },
                 {
                     "id": 2,
-                    "title": "Preescolar",
-                    "description": "Exploración, juego y valores desde los primeros pasos."
+                    "title": "Primaria",
+                    "description": "Aprender es una aventura emocionante donde el conocimiento inspira, los valores se fortalecen y cada niño crece con alegría y confianza."
                 },
                 {
                     "id": 3,
-                    "title": "Primaria",
-                    "description": "Pensamiento crítico, liderazgo y formación bilingüe."
+                    "title": "Inclusión",
+                    "description": "Acompañamos su aprendizaje promoviendo sus talentos y sueños, para que todos puedan crecer y brillar."
                 },
                 {
                     "id": 4,
-                    "title": "Bachillerato",
-                    "description": "Pensamiento crítico, liderazgo y formación bilingüe."
+                    "title": "Secundaria",
+                    "description": "Vivirás experiencias que te retan, te inspiran y te preparan para descubrir quién eres y hasta dónde puedes llegar."
                 }
             ],
             "en": [
                 {
                     "id": 1,
-                    "title": "Inclusion",
-                    "description": "Adaptive learning, with respect and companionship."
+                    "title": "Preschool",
+                    "description": "We write brilliant stories, guiding each child to discover their purpose and grow up with values, gifts, and habits to transform the world."
                 },
                 {
                     "id": 2,
-                    "title": "Preschool",
-                    "description": "Exploration, play and values from the very first steps."
+                    "title": "Elementary School",
+                    "description": "Learning is an exciting adventure where knowledge inspires, values are strengthened, and each child grows with joy and confidence."
                 },
                 {
                     "id": 3,
-                    "title": "Primary",
-                    "description": "Critical thinking, leadership and bilingual formation."
+                    "title": "Inclusion",
+                    "description": "We accompany children’s learning by fostering their gifts and dreams, so that everyone can grow and shine."
                 },
                 {
                     "id": 4,
                     "title": "High School",
-                    "description": "Critical thinking, leadership and bilingual formation."
+                    "description": "You will live experiences that challenge you, inspire you and prepare you to discover who you are and how much you can achieve."
                 }
             ]
         }

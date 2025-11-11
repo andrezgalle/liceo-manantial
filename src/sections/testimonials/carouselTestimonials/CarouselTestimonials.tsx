@@ -1,52 +1,69 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import styles from './carouselTestimonials.module.css';
 import { animateFooter } from '@/animations/global/footer/animations';
 
 const items = [
   {
     id: 1,
-    name: 'Carlos',
-    image: '/resources/testimonials/testimonials.png',
-    title: 'Katherin García',
-    desc: 'Ex alumna',
+    name: 'Maria Paula',
+    video: '/resources/testimonials/1.mov',
+    title: 'Maria Paula',
+    desc: 'Estudiante',
   },
   {
     id: 2,
-    name: 'Carolina',
-    image: '/resources/testimonials/testimonials.png',
-    title: 'Carolina Pérez',
+    name: 'Juan Pablo',
+    video: '/resources/testimonials/2.mov',
+    title: 'Juan Pablo',
     desc: 'Estudiante',
   },
   {
     id: 3,
-    name: 'Andrés',
-    image: '/resources/testimonials/testimonials.png',
-    title: 'Andrés Gómez',
+    name: 'Maria Paula',
+    video: '/resources/testimonials/1.mov',
+    title: 'Maria Paula',
     desc: 'Estudiante',
   },
   {
     id: 4,
-    name: 'Camila',
-    image: '/resources/testimonials/testimonials.png',
-    title: 'Camila Díaz',
+    name: 'Juan Pablo',
+    video: '/resources/testimonials/2.mov',
+    title: 'Juan Pablo',
     desc: 'Estudiante',
   },
-    {
+  {
     id: 5,
-    name: 'Maria',
-    image: '/resources/testimonials/testimonials.png',
-    title: 'Camila Díaz',
+    name: 'Maria Paula',
+    video: '/resources/testimonials/1.mov',
+    title: 'Maria Paula',
     desc: 'Estudiante',
   },
 ];
 
 export default function CarouselTestimonials() {
   const [activeIndex, setActiveIndex] = useState(2);
+  const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
 
   useEffect(() => {
     animateFooter();  
   }, []);
+
+  // Pausar todos los videos excepto el activo cuando cambia el slide
+  useEffect(() => {
+    videoRefs.current.forEach((video, index) => {
+      if (video) {
+        if (index !== activeIndex) {
+          video.pause();
+          video.currentTime = 0;
+        }
+      }
+    });
+  }, [activeIndex]);
+
+  const handleSlideClick = (index: number) => {
+    setActiveIndex(index);
+  };
 
   return (
     <div className={styles.carousel}>
@@ -57,10 +74,19 @@ export default function CarouselTestimonials() {
             className={`${styles.slide} ${
               index === activeIndex ? styles.active : ''
             }`}
-            onClick={() => setActiveIndex(index)}
+            onClick={() => handleSlideClick(index)}
           >
-            <div className={styles.imageWrapper}>
-              <img src={item.image} alt={item.name} className={styles.image} />
+            <div className={styles.videoWrapper}>
+              <video
+                ref={(el : any) => (videoRefs.current[index] = el)}
+                className={styles.video}
+                controls={index === activeIndex}
+                playsInline
+                preload="metadata"
+              >
+                <source src={item.video} type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
             </div>
             <div className={styles.label}>{item.name}</div>
           </div>
@@ -75,6 +101,7 @@ export default function CarouselTestimonials() {
               index === activeIndex ? styles.activeDot : ''
             }`}
             onClick={() => setActiveIndex(index)}
+            aria-label={`Ir al testimonio ${index + 1}`}
           />
         ))}
       </div>
@@ -83,7 +110,6 @@ export default function CarouselTestimonials() {
         <h3>{items[activeIndex].title}</h3>
         <p>{items[activeIndex].desc}</p>
       </div>
-
     </div>
   );
 }

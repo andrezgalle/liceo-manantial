@@ -15,7 +15,7 @@ export const animateMainSection = () => {
   const menuHamburger = document.querySelector(".menu-hamburguesa");
 
   // Asegurar visibilidad correcta
-  if (sectionHome) gsap.set(sectionHome, { position: "relative", zIndex: 1 });
+  if (sectionHome) gsap.set(sectionHome, { position: "relative" });
 
   // Ocultar las cards al inicio
   if (containerCards) {

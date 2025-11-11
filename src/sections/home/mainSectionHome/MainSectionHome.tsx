@@ -44,6 +44,13 @@ export default function MainSectionHome() {
             <section className={`${styles.mainSection} sectionHome`}>
                 <Header state="white" />
 
+                <div className={styles.containerVideo}>
+                    <video className={styles.video} autoPlay muted loop>
+                        <source src="/video/mainvideo.webm" type="video/webm" />
+                    </video>
+                </div>
+
+
                 <div className={styles.content}>
                     <div className={styles.titles}>
                         <h1>

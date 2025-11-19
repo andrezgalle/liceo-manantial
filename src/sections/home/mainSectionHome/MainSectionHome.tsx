@@ -53,10 +53,7 @@ export default function MainSectionHome() {
 
                 <div className={styles.content}>
                     <div className={styles.titles}>
-                        <h1>
-                            {language === 'es' ? json.main.initTitle.es : json.main.initTitle.en}
-                        </h1>
-                        <h2>{language === 'es' ? json.main.secondTitle.es : json.main.secondTitle.en} {new Date().getFullYear() + 1}</h2>
+
                     </div>
 
                     <div className={styles.text}>

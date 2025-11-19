@@ -19,3 +19,7 @@
     line-height: 2.1rem;
     text-align: center;
 }
+
+.image {
+    object-fit: contain;
+}

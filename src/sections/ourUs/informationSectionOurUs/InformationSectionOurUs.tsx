@@ -41,6 +41,7 @@ export default function InformationSectionOurUs() {
                             width={650}
                             height={450}
                             className="image-information-ourus"
+                            style={{ objectFit: 'contain' }}
                         />
                     </div>
                 </div>
@@ -54,6 +55,7 @@ export default function InformationSectionOurUs() {
                             width={650}
                             height={450}
                             className="image-information-ourus"
+                            style={{ objectFit: 'contain' }}
                         />
                     </div>
                     <div className={`${styles.textContent} text-information-ourus`}>
@@ -83,6 +85,7 @@ export default function InformationSectionOurUs() {
                             width={550}
                             height={450}
                             className="image-information-ourus"
+                            style={{ objectFit: 'contain' }}
                         />
                     </div>
                 </div>

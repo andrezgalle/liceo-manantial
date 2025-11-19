@@ -27,7 +27,7 @@ export default function ItemGroupOurUs({ item }: ItemProps) {
         alt={item.title}
         width={64}
         height={64}
-        className="image-item-ourus"
+        className={`${styles.image} image-item-ourus`}
       />
       <h3 className={`${styles.title} title-item-ourus`}>{item.title}</h3>
       <p

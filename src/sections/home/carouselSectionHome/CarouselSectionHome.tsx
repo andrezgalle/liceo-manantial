@@ -18,6 +18,7 @@ const carouselItems = [
     { id: 9, image: '/resources/util/9.webp', alt: 'Imagen 9' }
 ];
 
+
 export default function CarouselSectionHome() {
 
     const [language, setLanguage] = useState<"es" | "en">("es");
